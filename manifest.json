@@ -1,10 +1,10 @@
 {
   "name": "Omegle Troll bot",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Automatically trolls on Omegle",
   "content_scripts": [{
       "matches": ["*://*.omegle.com/*"],
-      "js": ["omegle_bot.js"],
+      "js": ["omegle_bot_responsive.js"],
       "run_at": "document_start"
   }],
   "background": {
